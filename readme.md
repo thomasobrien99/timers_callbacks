@@ -11,6 +11,8 @@ Please define these terms in 1-3 sentences.
 3. Asynchronous code
 4. Higher Order Function
 5. The Call Stack
+6. The Heap
+7. The Queue
 
 ### Part 2 - Concepts
 
@@ -53,22 +55,6 @@ logThird();
 ### Part 3 - Application (this will be tough!)
 
 - Write a function called `liftoff` that starts at 10 and `console.log`s the previous number after a second. Once the count is at 0, the function should stop decrementing and `console.log("liftoff!")`
-
-- Write a function called `pluck` which loops through an array of objects and returns a new array with only the values of the key specified.
-
-For example:
-
-```
-var stooges = [
-		{name: 'moe', age: 40}, 
-		{name: 'larry', age: 50, 
-		{name: 'curly', age:	 60}
-];
-
-pluck(stooges, 'name');
-// returns ["moe", "larry", "curly"] 
-
-```
 
 - Write a function called `each` which takes in an array and a callback, and invokes the callback on each element in the array.  This function should **not** return anything. This function should accept an array as its first parameter and a callback function as its second.
 
