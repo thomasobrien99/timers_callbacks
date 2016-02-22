@@ -36,15 +36,15 @@ Please answer the following questions in 2-4 sentences.
 
 ```js
 function logFirst(){
- console.log("first");
+  console.log("first");
 }
 
 function logSecond(){
- console.log("second");
+  console.log("second");
 }
 
 function logThird(){
- console.log("third");
+  console.log("third");
 }
 
 logFirst();
