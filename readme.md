@@ -20,7 +20,7 @@ Please answer the following questions in 2-4 sentences.
 
 - What is the difference between these two functions?
 
-```
+```js
  var sayHi = function(){
    return "Hi!";
  }
@@ -34,7 +34,7 @@ Please answer the following questions in 2-4 sentences.
 - Why do we need/use higher order functions? What does it enable us to do? 
 - Explain in your own words, what happens to the `stack` and `queue` when the following code is run (please also include what it will output)
 
-```
+```js
 function logFirst(){
  console.log("first");
 }
@@ -60,7 +60,7 @@ logThird();
 
 For example: 
 
-```
+```js
  each([1,2,3], function(element){
   	// this will console.log 1,2,3
     console.log(element);
@@ -72,7 +72,7 @@ For example:
 
 For example: 
 
-```
+```js
  transform([1,2,3], function(element){
   	return element * 3;
   	// this will return [3,6,9]
@@ -87,7 +87,7 @@ For example:
 
 For example:
 
-```
+```js
 filter([1,2,3,4], function(element){
   return element % 2 === 0;
   // this will return [2,4] 
